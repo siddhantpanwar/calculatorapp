@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  margin-top: 80px;
+  border: 2px solid rgb(111, 88, 88);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 55rem;
+  width: 40rem;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+  display: flex;
+  gap: 2.2rem;
+}
+.section1 {
+}
+.section2 {
+}
+.section3 {
+}
+.section4 {
+}
+
+.btnM {
+  width: 7.2rem;
+  height: 7.2rem;
+  border-radius: 50%;
+  font-size: 2.2rem;
+  background-color: #333333;
+  color: white;
+}
+
+.btnM:link,
+.btnM:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  display: inline-block;
+  transition: all 0.3s;
+}
+
+.btnM:hover,
+.btnM:active {
+  transition: all 0.3s;
+  color: #fe9500;
+  background-color: rgb(66, 61, 61);
+}
+
+.btn-symbol {
+  width: 7.2rem;
+  height: 7.2rem;
+  border-radius: 50%;
+  font-size: 2.2rem;
+  background-color: #fe9500;
+  color: white;
+}
+
+.special-0 {
+  width: 17.5rem;
+  height: 7rem;
+  border-radius: 4rem 4rem 4rem 4rem;
+  font-size: 2.2rem;
+  background-color: #333333;
+  color: white;
+}
+
+.display-sec {
+  display: flex;
+}
